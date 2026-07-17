@@ -7,7 +7,12 @@
   "license": "MIT",
   "scripts": {
     "dev": "bun run src/index.ts --watch",
-    "build": "tsc -b --noEmit && bun build src/index.ts --outdir=dist --target=bun --platform=bun --drop console --minify"
+    "build": "tsc -b --noEmit && bun build src/index.ts --outdir=dist --target=bun --platform=bun --drop console --minify",
+    "start": "bun src/index.ts",
+    "typecheck": "tsc --noEmit",
+    "lint": "bunx --bun biome check",
+    "format": "bunx --bun biome check --write",
+    "test": "bun test"
   },
   "dependencies": {
     "@hono/zod-openapi": "^1.2.4",
