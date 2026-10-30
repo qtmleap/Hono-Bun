@@ -1,6 +1,6 @@
 # Hono + Bun
 
-TypeScript + Bun を使用した TypeScript プロジェクト
+Hono + Bun を使用した軽量 Web API テンプレートリポジトリです。
 
 ## 技術スタック
 
